@@ -380,7 +380,6 @@ button { font-family: inherit; }
 .zy-nav a.is-active { color: var(--green-700); border-bottom-color: var(--gold-500); }
 
 .zy-header-actions { display: flex; align-items: center; gap: 6px; }
-.zy-header-icons { display: inline-flex; align-items: center; gap: 6px; }
 .zy-header-actions .btn { margin-left: 6px; }
 
 /* Mobile hamburger (added for usable mobile nav — hidden on desktop) */
@@ -1102,7 +1101,7 @@ button { font-family: inherit; }
 }
 
 @media (max-width: 920px) {
-  .zy-nav, .zy-header-icons { display: none; }
+  .zy-nav { display: none; }
   .zy-burger { display: inline-flex; }
   /* mobile dropdown nav */
   .zy-nav.is-open {
