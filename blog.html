@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog — ZYFLORA</title>
+  <meta name="description" content="ZYFLORA Bal Günlüğü — arıcılık, doğal yaşam ve balın faydaları üzerine yazılar." />
+  <meta name="theme-color" content="#16291A" />
+  <link rel="canonical" href="blog.html" />
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/logo/favicon.png" />
+  <link rel="apple-touch-icon" href="assets/logo/apple-touch-icon.png" />
+
+  <!-- Open Graph / sosyal paylaşım önizlemesi (WhatsApp, Facebook, X, vb.) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="ZYFLORA" />
+  <meta property="og:locale" content="tr_TR" />
+  <meta property="og:title" content="Blog — ZYFLORA Bal Günlüğü" />
+  <meta property="og:description" content="Arıcılık, doğal yaşam ve balın faydaları üzerine yazılar." />
+  <meta property="og:image" content="assets/img/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Blog — ZYFLORA Bal Günlüğü" />
+  <meta name="twitter:description" content="Arıcılık, doğal yaşam ve balın faydaları üzerine yazılar." />
+  <meta name="twitter:image" content="assets/img/og-image.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Montserrat:wght@500;600;700&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+  <!-- ===== Inline icon sprite (Lucide, ISC) ===== -->
+  <svg aria-hidden="true" focusable="false" style="position:absolute;width:0;height:0;overflow:hidden" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></symbol>
+    <symbol id="i-arrow-left" viewBox="0 0 24 24"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></symbol>
+    <symbol id="i-sprout" viewBox="0 0 24 24"><path d="M14 9.536V7a4 4 0 0 1 4-4h1.5a.5.5 0 0 1 .5.5V5a4 4 0 0 1-4 4 4 4 0 0 0-4 4c0 2 1 3 1 5a5 5 0 0 1-1 3"/><path d="M4 9a5 5 0 0 1 8 4 5 5 0 0 1-8-4"/><path d="M5 21h14"/></symbol>
+    <symbol id="i-shield-check" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></symbol>
+    <symbol id="i-award" viewBox="0 0 24 24"><path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"/><circle cx="12" cy="8" r="6"/></symbol>
+    <symbol id="i-flask-conical" viewBox="0 0 24 24"><path d="M14 2v6a2 2 0 0 0 .245.96l5.51 10.08A2 2 0 0 1 18 22H6a2 2 0 0 1-1.755-2.96l5.51-10.08A2 2 0 0 0 10 8V2"/><path d="M6.453 15h11.094"/><path d="M8.5 2h7"/></symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></symbol>
+    <symbol id="i-map-pin" viewBox="0 0 24 24"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-chevron-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></symbol>
+    <symbol id="i-message-circle" viewBox="0 0 24 24"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></symbol>
+    <symbol id="i-facebook" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><path d="M16 3.128a4 4 0 0 1 0 7.744"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><circle cx="9" cy="7" r="4"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/></symbol>
+  </svg>
+
+  <!-- ===== Top utility bar ===== -->
+  <div class="zy-topbar">
+    <div class="zy-top">
+      <div class="zy-top-item zy-top-hide">
+        <svg class="icon"><use href="#i-sprout"/></svg>
+        <span data-i18n="top_promo1">Doğal, Katkısız ve Güvenilir Ürünler</span>
+      </div>
+      <div class="zy-top-item zy-top-hide">
+        <svg class="icon"><use href="#i-map-pin"/></svg>
+        <span data-i18n="top_promo2">Balıkesir Yaylalarından Doğal Bal</span>
+      </div>
+      <div class="zy-top-right">
+        <a class="zy-top-tel" data-tel href="tel:+905551234567">
+          <svg class="icon"><use href="#i-phone"/></svg>
+          <span data-i18n="top_whatsapp">İrtibat</span>:&nbsp;<span data-phone-display>0 555 123 45 67</span>
+        </a>
+        <div class="zy-lang"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== Header ===== -->
+  <header class="zy-header">
+    <div class="zy-header-inner">
+      <a class="zy-logo-link" href="index.html" aria-label="ZYFLORA">
+        <img src="assets/logo/zyflora-badge-256.png" alt="ZYFLORA — Arı ve Arı Ürünleri" />
+      </a>
+      <nav class="zy-nav" aria-label="Ana menü">
+        <a href="index.html" data-i18n="nav_home">Ana Sayfa</a>
+        <a href="index.html#urunler" data-i18n="nav_products">Ürünler</a>
+        <a href="hakkimizda.html" data-i18n="nav_about">Hakkımızda</a>
+        <a href="blog.html" class="is-active" data-i18n="nav_blog">Blog</a>
+        <a href="index.html#iletisim" data-i18n="nav_contact">İletişim</a>
+      </nav>
+      <div class="zy-header-actions">
+        <span class="zy-header-icons">
+          <button class="icon-btn" type="button" data-i18n-aria="aria_search" aria-label="Ara">
+            <svg class="icon"><use href="#i-search"/></svg>
+          </button>
+          <button class="icon-btn" type="button" data-i18n-aria="aria_account" aria-label="Hesabım">
+            <svg class="icon"><use href="#i-user"/></svg>
+          </button>
+        </span>
+        <a class="btn btn--primary btn--sm" href="index.html#iletisim">
+          <svg class="icon"><use href="#i-phone"/></svg>
+          <span data-i18n="btn_order">İrtibat</span>
+        </a>
+        <button class="zy-burger" type="button" aria-label="Menü" aria-expanded="false">
+          <svg class="icon"><use href="#i-chevron-down"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== Blog ===== -->
+    <section class="zy-section" style="padding-top:64px">
+      <div class="zy-heading">
+        <span class="eyebrow" data-i18n="bl_eyebrow">Blog</span>
+        <div class="zy-heading-row">
+          <span class="zy-sprig zy-sprig--flip" aria-hidden="true"></span>
+          <h2 data-i18n="bl_title">Bal Günlüğü</h2>
+          <span class="zy-sprig" aria-hidden="true"></span>
+        </div>
+        <p class="sub" data-i18n="bl_sub">Arıcılık, doğal yaşam ve balın faydaları üzerine yazılar.</p>
+      </div>
+
+      <div class="zy-blog-grid">
+        <!-- post 1 -->
+        <a class="zy-blog-card" href="#">
+          <div class="zy-blog-media">
+            <img src="assets/img/aricilik.jpg" alt="Petek üzerinde bal arıları" />
+            <span class="zy-blog-cat" data-i18n="post1_cat">Sağlık</span>
+          </div>
+          <div class="zy-blog-body">
+            <div class="zy-blog-meta">
+              <svg class="icon"><use href="#i-calendar"/></svg>
+              <span data-i18n="post1_date">12 Haziran 2026</span>
+            </div>
+            <h3 data-i18n="post1_title">Balın Sağlığa 7 Faydası</h3>
+            <p data-i18n="post1_excerpt">Doğal balın bağışıklıktan cilt sağlığına kadar uzanan faydalarını derledik.</p>
+            <span class="zy-blog-more">
+              <span data-i18n="bl_readmore">Devamını Oku</span>
+              <svg class="icon"><use href="#i-arrow-right"/></svg>
+            </span>
+          </div>
+        </a>
+        <!-- post 2 -->
+        <a class="zy-blog-card" href="#">
+          <div class="zy-blog-media">
+            <img src="assets/img/dogal-uretim.jpg" alt="Kazdağları'nda doğal bal üretimi" />
+            <span class="zy-blog-cat" data-i18n="post2_cat">Üretim</span>
+          </div>
+          <div class="zy-blog-body">
+            <div class="zy-blog-meta">
+              <svg class="icon"><use href="#i-calendar"/></svg>
+              <span data-i18n="post2_date">28 Mayıs 2026</span>
+            </div>
+            <h3 data-i18n="post2_title">Kazdağları'nda Bir Gün</h3>
+            <p data-i18n="post2_excerpt">Arılarımızın yaşadığı el değmemiş doğayı ve hasat sürecimizi anlattık.</p>
+            <span class="zy-blog-more">
+              <span data-i18n="bl_readmore">Devamını Oku</span>
+              <svg class="icon"><use href="#i-arrow-right"/></svg>
+            </span>
+          </div>
+        </a>
+        <!-- post 3 -->
+        <a class="zy-blog-card" href="#">
+          <div class="zy-blog-media">
+            <img src="assets/img/hero-honey.jpg" alt="Bal kavanozu ve ballı kahvaltı sofrası" />
+            <span class="zy-blog-cat" data-i18n="post3_cat">Tarifler</span>
+          </div>
+          <div class="zy-blog-body">
+            <div class="zy-blog-meta">
+              <svg class="icon"><use href="#i-calendar"/></svg>
+              <span data-i18n="post3_date">9 Mayıs 2026</span>
+            </div>
+            <h3 data-i18n="post3_title">Ballı Kahvaltı Tarifleri</h3>
+            <p data-i18n="post3_excerpt">Sofranıza doğallık katacak pratik ve lezzetli ballı kahvaltı önerileri.</p>
+            <span class="zy-blog-more">
+              <span data-i18n="bl_readmore">Devamını Oku</span>
+              <svg class="icon"><use href="#i-arrow-right"/></svg>
+            </span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <div class="zy-spacer"></div>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="zy-footer">
+    <div class="zy-footer-trust">
+      <div class="zy-footer-trust-inner">
+        <div class="zy-trust zy-trust--dark">
+          <span class="zy-trust-ic"><svg class="icon"><use href="#i-award"/></svg></span>
+          <span class="zy-trust-txt">
+            <span class="zy-trust-t" data-i18n="ft_ship_t">Ödüllü Üretim</span>
+            <span class="zy-trust-s" data-i18n="ft_ship_s">Balıkesir</span>
+          </span>
+        </div>
+        <div class="zy-trust zy-trust--dark">
+          <span class="zy-trust-ic"><svg class="icon"><use href="#i-sprout"/></svg></span>
+          <span class="zy-trust-txt">
+            <span class="zy-trust-t" data-i18n="tc_natural_t">%100 Doğal</span>
+            <span class="zy-trust-s" data-i18n="tc_natural_s">Katkısız &amp; Saf</span>
+          </span>
+        </div>
+        <div class="zy-trust zy-trust--dark">
+          <span class="zy-trust-ic"><svg class="icon"><use href="#i-users"/></svg></span>
+          <span class="zy-trust-txt">
+            <span class="zy-trust-t" data-i18n="ft_return_t">Üç Kuşak</span>
+            <span class="zy-trust-s" data-i18n="ft_return_s">Arıcılık</span>
+          </span>
+        </div>
+        <div class="zy-trust zy-trust--dark">
+          <span class="zy-trust-ic"><svg class="icon"><use href="#i-phone"/></svg></span>
+          <span class="zy-trust-txt">
+            <span class="zy-trust-t" data-i18n="ft_support_t">İrtibat</span>
+            <span class="zy-trust-s" data-i18n="ft_support_s">Bize Ulaşın</span>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="zy-footer-grid">
+      <div class="zy-footer-brand">
+        <img src="assets/logo/zyflora-badge-256.png" alt="ZYFLORA" />
+        <p data-i18n="brand_tagline">Arılarımıza ve doğaya duyduğumuz saygıyla, doğadan sofranıza saf ve katkısız arı ürünleri.</p>
+        <div class="zy-social">
+          <a href="https://www.instagram.com/" data-social="instagram" aria-label="Instagram"><svg class="icon"><use href="#i-instagram"/></svg></a>
+          <a href="https://www.facebook.com/" data-social="facebook" aria-label="Facebook"><svg class="icon"><use href="#i-facebook"/></svg></a>
+          <a href="#" data-wa-generic aria-label="WhatsApp"><svg class="icon"><use href="#i-message-circle"/></svg></a>
+        </div>
+      </div>
+
+      <div class="zy-footer-col">
+        <h4 data-i18n="ft_col_products">Ürünler</h4>
+        <a href="index.html#urunler" data-i18n="p_cicek">Çiçek Balı</a>
+        <a href="index.html#urunler" data-i18n="p_kestane">Kestane Balı</a>
+        <a href="index.html#urunler" data-i18n="p_cam">Çam Balı</a>
+        <a href="index.html#urunler" data-i18n="ft_p4">Polen &amp; Perga</a>
+      </div>
+
+      <div class="zy-footer-col">
+        <h4 data-i18n="ft_col_corp">Kurumsal</h4>
+        <a href="hakkimizda.html" data-i18n="nav_about">Hakkımızda</a>
+        <a href="hakkimizda.html" data-i18n="corp_process">Üretim Süreci</a>
+        <a href="blog.html" data-i18n="nav_blog">Blog</a>
+        <a href="index.html#iletisim" data-i18n="nav_contact">İletişim</a>
+      </div>
+
+      <div class="zy-footer-col zy-footer-contact">
+        <h4 data-i18n="ft_col_contact">İletişim</h4>
+        <div class="row">
+          <svg class="icon"><use href="#i-phone"/></svg>
+          <a data-tel data-phone-display href="tel:+905551234567">0 555 123 45 67</a>
+        </div>
+        <div class="row">
+          <svg class="icon"><use href="#i-mail"/></svg>
+          <a data-mail data-mail-text href="mailto:info@zyflora.com">info@zyflora.com</a>
+        </div>
+        <div class="row">
+          <svg class="icon"><use href="#i-map-pin"/></svg>
+          <span data-i18n="ft_address">Balıkesir, Türkiye</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="zy-footer-bottom">
+      <div class="zy-footer-bottom-inner" data-i18n="ft_copyright">© 2026 ZYFLORA — Arı ve Arı Ürünleri. Tüm hakları saklıdır.</div>
+    </div>
+  </footer>
+
+  <script src="assets/js/site.js"></script>
+</body>
+</html>

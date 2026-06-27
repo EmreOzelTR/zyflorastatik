@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sayfa bulunamadı — ZYFLORA</title>
+  <meta name="robots" content="noindex" />
+  <meta name="theme-color" content="#16291A" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Montserrat:wght@600&family=Nunito+Sans:wght@400&display=swap" rel="stylesheet" />
+  <style>
+    :root { --green-900:#16291A; --green-700:#233E27; --green-800:#1C331D; --honey-500:#E2A12B;
+            --gold-500:#C2A04A; --cream-50:#FBF7EF; --taupe-600:#6E6253; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh;
+      display: flex; align-items: center; justify-content: center; padding: 24px;
+      background: linear-gradient(180deg, #FBF7EF 0%, #F5EEDF 100%);
+      font-family: 'Nunito Sans', system-ui, sans-serif; color: #1A2419; text-align: center;
+    }
+    .card { max-width: 520px; }
+    .code {
+      font-family: 'Cormorant Garamond', serif; font-weight: 700;
+      font-size: clamp(96px, 22vw, 180px); line-height: 0.9; color: var(--green-800);
+      letter-spacing: 0.02em;
+    }
+    .eyebrow {
+      font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 12px;
+      letter-spacing: 0.22em; text-transform: uppercase; color: var(--honey-500);
+      margin-bottom: 8px;
+    }
+    h1 { font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 30px; margin: 6px 0 12px; }
+    p { color: var(--taupe-600); font-size: 16px; line-height: 1.7; margin: 0 0 28px; }
+    a.home {
+      display: inline-flex; align-items: center; gap: 9px;
+      padding: 15px 30px; border-radius: 8px; text-decoration: none;
+      background: var(--green-700); color: #fff;
+      font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 13px;
+      letter-spacing: 0.08em; text-transform: uppercase;
+      box-shadow: 0 2px 8px rgba(60,45,20,0.12); transition: background .2s ease, transform .2s ease;
+    }
+    a.home:hover { background: var(--green-800); transform: translateY(-1px); }
+    .sprig { display:inline-block; width:36px; height:1.5px; background:var(--gold-500); margin: 0 6px; vertical-align: middle; opacity:.7; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="code">404</div>
+    <div class="eyebrow"><span class="sprig"></span>ZYFLORA<span class="sprig"></span></div>
+    <h1>Aradığınız sayfa bulunamadı</h1>
+    <p>Bu sayfa taşınmış ya da hiç var olmamış olabilir. Doğal bal ve arı ürünlerimizi keşfetmek için ana sayfaya dönebilirsiniz.</p>
+    <a class="home" id="home" href="index.html">Ana Sayfaya Dön</a>
+  </div>
+  <script>
+    // Resolve the correct site root on both apex and GitHub project (user.github.io/<repo>/) sites.
+    (function () {
+      var seg = location.pathname.split('/').filter(Boolean);
+      var base = (location.hostname.indexOf('github.io') !== -1 && seg.length) ? '/' + seg[0] + '/' : '/';
+      document.getElementById('home').setAttribute('href', base);
+    })();
+  </script>
+</body>
+</html>
