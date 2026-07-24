@@ -27,16 +27,15 @@ zyflora-website/
 
 ## ⚙️ İletişim bilgilerini güncelleyin (ÖNEMLİ)
 
-Telefon, WhatsApp, e-posta ve sosyal medya bağlantıları tek bir yerden yönetilir.
+Telefon, WhatsApp ve sosyal medya bağlantıları tek bir yerden yönetilir.
 `assets/js/site.js` dosyasının en üstündeki `CONTACT` nesnesini kendi bilgilerinizle
 değiştirin — tüm sayfalardaki butonlar otomatik olarak güncellenir:
 
 ```js
 var CONTACT = {
-  PHONE_DISPLAY: '0 555 123 45 67',     // ekranda görünen numara
-  PHONE_TEL:     '+905551234567',       // tel: bağlantısı (ülke koduyla)
-  WHATSAPP:      '905551234567',        // wa.me numarası (yalnızca rakam, ülke koduyla)
-  EMAIL:         'info@zyflora.com',     // iletişim e-postası
+  PHONE_DISPLAY: '+90 543 847 79 16',   // ekranda görünen numara
+  PHONE_TEL:     '+905438477916',        // tel: bağlantısı (ülke koduyla)
+  WHATSAPP:      '905438477916',         // wa.me numarası (yalnızca rakam, ülke koduyla)
   SOCIAL: {
     instagram: 'https://www.instagram.com/KULLANICI_ADINIZ',
     facebook:  'https://www.facebook.com/SAYFANIZ'
@@ -60,7 +59,6 @@ numaranızı ve hesaplarınızı girmeniz önerilir.
 | **Hakkımızda → Ana Sayfaya Dön** | Ana sayfa |
 | Dil bayrakları (TR/EN/FR/DE) | Anında dil değiştirir, tercihi hatırlar |
 | Menü (mobil ☰) | Açılır navigasyonu açar/kapatır |
-| Footer e-posta | `mailto:` açar |
 | Footer Instagram / Facebook / WhatsApp | İlgili hesabı/sohbeti yeni sekmede açar |
 
 > **Not — Blog yazıları:** Blog kartları örnek (placeholder) içeriktir ve gerçek bir

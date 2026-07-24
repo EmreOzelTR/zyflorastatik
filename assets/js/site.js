@@ -14,14 +14,12 @@
      CONTACT DETAILS  —  EDIT THESE to your real numbers.
      PHONE_DISPLAY : shown on screen
      PHONE_TEL     : used for tel: links (digits only, with country code)
-     WHATSAPP      : international format, digits only (e.g. 905551234567)
-     EMAIL         : contact e-mail
+     WHATSAPP      : international format, digits only (e.g. 905438477916)
      ---------------------------------------------------------------------- */
   var CONTACT = {
-    PHONE_DISPLAY: '0 555 123 45 67',
-    PHONE_TEL: '+905551234567',
-    WHATSAPP: '905551234567',
-    EMAIL: 'info@zyflora.com',
+    PHONE_DISPLAY: '+90 543 847 79 16',
+    PHONE_TEL: '+905438477916',
+    WHATSAPP: '905438477916',
     SOCIAL: {
       instagram: 'https://www.instagram.com/',
       facebook: 'https://www.facebook.com/'
@@ -66,6 +64,8 @@
       modal_image_alt_cicek: 'Balıkesir kır çiçekleri üzerinde bal arısı',
       modal_image_alt_kestane: "Kapıdağ'da kestane çiçekleri ve arı kovanları",
       modal_line: 'İrtibat', modal_whatsapp: "WhatsApp'tan Yaz",
+      wa_message_generic: 'Merhaba, ürünleriniz hakkında bilgi almak istiyorum.',
+      wa_message_product: 'Merhaba, "{product}" hakkında bilgi almak istiyorum.',
       ft_ship_t: 'Ödüllü Üretim', ft_ship_s: 'Balıkesir', ft_return_t: 'Üç Kuşak', ft_return_s: 'Arıcılık',
       ft_support_t: 'İrtibat', ft_support_s: 'Bize Ulaşın',
       ft_col_products: 'Ürünler', ft_p4: 'Polen & Perga', ft_col_corp: 'Kurumsal', corp_process: 'Üretim Süreci',
@@ -129,6 +129,8 @@
       modal_image_alt_cicek: 'Honey bee on wildflowers in Balıkesir',
       modal_image_alt_kestane: 'Chestnut blossoms and beehives in Kapıdağ',
       modal_line: 'Contact', modal_whatsapp: 'Message on WhatsApp',
+      wa_message_generic: 'Hello, I would like to learn more about your products.',
+      wa_message_product: 'Hello, I would like to learn more about "{product}".',
       ft_ship_t: 'Award-Winning', ft_ship_s: 'Balıkesir', ft_return_t: 'Three Generations', ft_return_s: 'of Beekeeping',
       ft_support_t: 'Contact', ft_support_s: 'Get in Touch',
       ft_col_products: 'Products', ft_p4: 'Pollen & Perga', ft_col_corp: 'Corporate', corp_process: 'Production Process',
@@ -192,6 +194,8 @@
       modal_image_alt_cicek: 'Abeille sur des fleurs sauvages de Balıkesir',
       modal_image_alt_kestane: 'Fleurs de châtaignier et ruches à Kapıdağ',
       modal_line: 'Contact', modal_whatsapp: 'Écrire sur WhatsApp',
+      wa_message_generic: 'Bonjour, je souhaite obtenir des informations sur vos produits.',
+      wa_message_product: 'Bonjour, je souhaite obtenir des informations sur « {product} ».',
       ft_ship_t: 'Primé', ft_ship_s: 'Balıkesir', ft_return_t: 'Trois générations', ft_return_s: "d'apiculture",
       ft_support_t: 'Contact', ft_support_s: 'Contactez-nous',
       ft_col_products: 'Produits', ft_p4: 'Pollen & Perga', ft_col_corp: 'Entreprise', corp_process: 'Processus de production',
@@ -255,6 +259,8 @@
       modal_image_alt_cicek: 'Honigbiene auf Wildblumen in Balıkesir',
       modal_image_alt_kestane: 'Kastanienblüten und Bienenstöcke in Kapıdağ',
       modal_line: 'Kontakt', modal_whatsapp: 'Auf WhatsApp schreiben',
+      wa_message_generic: 'Hallo, ich möchte mehr über Ihre Produkte erfahren.',
+      wa_message_product: 'Hallo, ich möchte mehr über „{product}“ erfahren.',
       ft_ship_t: 'Preisgekrönt', ft_ship_s: 'Balıkesir', ft_return_t: 'Drei Generationen', ft_return_s: 'Imkerei',
       ft_support_t: 'Kontakt', ft_support_s: 'Kontaktieren Sie uns',
       ft_col_products: 'Produkte', ft_p4: 'Pollen & Perga', ft_col_corp: 'Unternehmen', corp_process: 'Produktionsprozess',
@@ -357,6 +363,7 @@
         b.addEventListener('click', function () {
           lang = setLang(L.code);
           applyI18n();
+          applyContact();
         });
         host.appendChild(b);
       });
@@ -494,8 +501,8 @@
   function whatsappLink(productName) {
     var base = 'https://wa.me/' + CONTACT.WHATSAPP;
     var msg = productName
-      ? 'Merhaba, "' + productName + '" hakkında bilgi almak istiyorum.'
-      : 'Merhaba, ürünleriniz hakkında bilgi almak istiyorum.';
+      ? t('wa_message_product').replace('{product}', productName)
+      : t('wa_message_generic');
     return base + '?text=' + encodeURIComponent(msg);
   }
   function openModal(opts) {
@@ -570,10 +577,6 @@
     });
     document.querySelectorAll('[data-phone-display]').forEach(function (el) {
       el.textContent = CONTACT.PHONE_DISPLAY;
-    });
-    document.querySelectorAll('[data-mail]').forEach(function (a) {
-      a.setAttribute('href', 'mailto:' + CONTACT.EMAIL);
-      if (a.hasAttribute('data-mail-text')) a.textContent = CONTACT.EMAIL;
     });
     document.querySelectorAll('[data-wa-generic]').forEach(function (a) {
       a.setAttribute('href', whatsappLink(''));
