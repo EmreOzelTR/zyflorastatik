@@ -42,6 +42,7 @@
       sec_products_eyebrow: 'Ürünlerimiz', sec_products_title: 'Doğal Ürünlerimiz',
       sec_products_sub: 'Doğadan sofranıza gelen saf lezzetler ve şifa kaynağı arı ürünleri.',
       p_cicek: 'Çiçek Balı', p_cicek_s: 'Doğal ve katkısız çiçek balı',
+      p_mese: 'Meşe Balı', p_mese_s: 'Kendine özgü odunsu aromalı meşe balı',
       p_kestane: 'Kestane Balı', p_kestane_s: 'Yoğun aromalı kestane balı',
       p_cam: 'Çam Balı', p_cam_s: 'Doğal çam balı',
       p_aycicek: 'Ayçiçek Balı', p_aycicek_s: '%100 doğal ayçiçek balı',
@@ -56,6 +57,8 @@
       f2_body: 'Her bir ürünümüzde doğallığı ve kaliteyi bulacaksınız.', f2_cta: 'İrtibat',
       modal_eyebrow: 'İrtibat', modal_generic: 'İrtibat',
       modal_body: 'Ürünlerimiz hakkında bilgi almak için bizimle iletişime geçin. Telefon veya WhatsApp üzerinden size memnuniyetle yardımcı oluruz.',
+      modal_body_mese: "Balıkesir'in zengin bitki örtüsü ve temiz doğasında, yaz aylarında meşe ağaçlarının salgıları ile elde edilen meşe balımız, kendine özgü aroması ve doğal lezzetiyle sofralarınıza ulaşır. Arılarımızın özenle topladığı nektarlardan üretilen bu bal, hiçbir katkı maddesi içermez. Balıkesir'in eşsiz doğasından sofralarınıza ulaşan doğal Meşe Balımızı güvenle tüketebilir, gerçek Meşe balının kendine özgü odunsu aromasını keşfedebilirsiniz.",
+      modal_body_kestane: "Balıkesir'in Erdek ilçesinde yer alan eşsiz Kapıdağ Yarımadası'nın zengin kestane ormanlarında üretilen kestane balımız, yoğun aroması, koyu rengi ve kendine özgü hafif buruk tadıyla öne çıkar. Arılarımız, kestane çiçeklerinden topladıkları nektarı tamamen doğal yöntemlerle bala dönüştürür. Hiçbir katkı maddesi veya koruyucu içermez. Kapıdağ'ın eşsiz doğasından sofralarınıza ulaşan doğal Kestane Balımızı güvenle tüketebilir, gerçek kestane balının zengin aromasını keşfedebilirsiniz.",
       modal_line: 'İrtibat', modal_whatsapp: "WhatsApp'tan Yaz",
       ft_ship_t: 'Ödüllü Üretim', ft_ship_s: 'Balıkesir', ft_return_t: 'Üç Kuşak', ft_return_s: 'Arıcılık',
       ft_support_t: 'İrtibat', ft_support_s: 'Bize Ulaşın',
@@ -89,6 +92,7 @@
       sec_products_eyebrow: 'Our Products', sec_products_title: 'Our Natural Products',
       sec_products_sub: 'Pure flavors and healing bee products that come from nature to your table.',
       p_cicek: 'Flower Honey', p_cicek_s: 'Natural, additive-free flower honey',
+      p_mese: 'Oak Honey', p_mese_s: 'Oak honey with a unique woody aroma',
       p_kestane: 'Chestnut Honey', p_kestane_s: 'Intensely aromatic chestnut honey',
       p_cam: 'Pine Honey', p_cam_s: 'Natural pine honey',
       p_aycicek: 'Sunflower Honey', p_aycicek_s: '100% natural sunflower honey',
@@ -103,6 +107,8 @@
       f2_body: "You'll find naturalness and quality in every one of our products.", f2_cta: 'Contact',
       modal_eyebrow: 'Contact', modal_generic: 'Contact',
       modal_body: "Get in touch to learn more about our products. We're happy to help by phone or WhatsApp.",
+      modal_body_mese: "Produced from the secretions of oak trees during summer in the rich flora and clean nature of Balıkesir, our oak honey reaches your tables with its unique aroma and natural flavor. Produced from nectars carefully collected by our bees, this honey contains no additives. You can safely consume our natural Oak Honey, which comes from the unique nature of Balıkesir to your tables, and discover the distinctive woody aroma of real oak honey.",
+      modal_body_kestane: "Produced in the rich chestnut forests of the unique Kapıdağ Peninsula located in the Erdek district of Balıkesir, our chestnut honey stands out with its intense aroma, dark color, and characteristic slightly tart taste. Our bees transform the nectar they collect from chestnut flowers into honey using completely natural methods. It contains no additives or preservatives. You can safely consume our natural Chestnut Honey, which comes from the unique nature of Kapıdağ to your tables, and discover the rich aroma of real chestnut honey.",
       modal_line: 'Contact', modal_whatsapp: 'Message on WhatsApp',
       ft_ship_t: 'Award-Winning', ft_ship_s: 'Balıkesir', ft_return_t: 'Three Generations', ft_return_s: 'of Beekeeping',
       ft_support_t: 'Contact', ft_support_s: 'Get in Touch',
@@ -136,6 +142,7 @@
       sec_products_eyebrow: 'Nos produits', sec_products_title: 'Nos produits naturels',
       sec_products_sub: 'Des saveurs pures et des produits de la ruche curatifs qui viennent de la nature à votre table.',
       p_cicek: 'Miel de fleurs', p_cicek_s: 'Miel de fleurs naturel et sans additifs',
+      p_mese: 'Miel de Chêne', p_mese_s: 'Miel de chêne à l\'arôme boisé unique',
       p_kestane: 'Miel de châtaignier', p_kestane_s: "Miel de châtaignier à l'arôme intense",
       p_cam: 'Miel de pin', p_cam_s: 'Miel de pin naturel',
       p_aycicek: 'Miel de tournesol', p_aycicek_s: 'Miel de tournesol 100% naturel',
@@ -150,6 +157,8 @@
       f2_body: 'Vous trouverez le naturel et la qualité dans chacun de nos produits.', f2_cta: 'Contact',
       modal_eyebrow: 'Contact', modal_generic: 'Contact',
       modal_body: 'Contactez-nous pour en savoir plus sur nos produits. Nous vous aidons volontiers par téléphone ou WhatsApp.',
+      modal_body_mese: "Produit à partir des sécrétions de chênes en été dans la flore riche et la nature pure de Balıkesir, notre miel de chêne arrive sur vos tables avec son arôme unique et sa saveur naturelle. Produit à partir de nectars soigneusement collectés par nos abeilles, ce miel ne contient aucun additif. Vous pouvez consommer en toute sécurité notre Miel de Chêne naturel, qui vient de la nature unique de Balıkesir à vos tables, et découvrir l'arôme boisé distinctif du véritable miel de chêne.",
+      modal_body_kestane: "Produit dans les riches forêts de châtaigniers de la péninsule unique de Kapıdağ, située dans le district d'Erdek à Balıkesir, notre miel de châtaignier se distingue par son arôme intense, sa couleur foncée et son goût légèrement acidulé caractéristique. Nos abeilles transforment le nectar qu'elles récoltent des fleurs de châtaignier en miel en utilisant des méthodes entièrement naturelles. Il ne contient aucun additif ni conservateur. Vous pouvez consommer en toute sécurité notre Miel de Châtaignier naturel, qui vient de la nature unique de Kapıdağ à vos tables, et découvrir le riche arôme du véritable miel de châtaignier.",
       modal_line: 'Contact', modal_whatsapp: 'Écrire sur WhatsApp',
       ft_ship_t: 'Primé', ft_ship_s: 'Balıkesir', ft_return_t: 'Trois générations', ft_return_s: "d'apiculture",
       ft_support_t: 'Contact', ft_support_s: 'Contactez-nous',
@@ -183,6 +192,7 @@
       sec_products_eyebrow: 'Unsere Produkte', sec_products_title: 'Unsere Naturprodukte',
       sec_products_sub: 'Reine Aromen und heilende Bienenprodukte, die von der Natur auf Ihren Tisch kommen.',
       p_cicek: 'Blütenhonig', p_cicek_s: 'Natürlicher, zusatzfreier Blütenhonig',
+      p_mese: 'Eichenhonig', p_mese_s: 'Eichenhonig mit einzigartigem holzigem Aroma',
       p_kestane: 'Kastanienhonig', p_kestane_s: 'Intensiv aromatischer Kastanienhonig',
       p_cam: 'Kiefernhonig', p_cam_s: 'Natürlicher Kiefernhonig',
       p_aycicek: 'Sonnenblumenhonig', p_aycicek_s: '100% natürlicher Sonnenblumenhonig',
@@ -197,6 +207,8 @@
       f2_body: 'In jedem unserer Produkte finden Sie Natürlichkeit und Qualität.', f2_cta: 'Kontakt',
       modal_eyebrow: 'Kontakt', modal_generic: 'Kontakt',
       modal_body: 'Kontaktieren Sie uns, um mehr über unsere Produkte zu erfahren. Wir helfen Ihnen gerne per Telefon oder WhatsApp.',
+      modal_body_mese: "Unser Eichenhonig wird im Sommer aus den Sekreten von Eichen in der reichen Flora und sauberen Natur von Balıkesir gewonnen und erreicht Ihre Tische mit seinem einzigartigen Aroma und seinem natürlichen Geschmack. Dieser Honig wird aus Nektar hergestellt, der von unseren Bienen sorgfältig gesammelt wird, und enthält keine Zusatzstoffe. Sie können unseren natürlichen Eichenhonig, der aus der einzigartigen Natur von Balıkesir auf Ihre Tische kommt, sicher konsumieren und das unverwechselbare holzige Aroma echten Eichenhonigs entdecken.",
+      modal_body_kestane: "Unser Kastanienhonig, der in den reichen Kastanienwäldern der einzigartigen Halbinsel Kapıdağ im Bezirk Erdek von Balıkesir hergestellt wird, zeichnet sich durch sein intensives Aroma, seine dunkle Farbe und seinen charakteristischen leicht herben Geschmack aus. Unsere Bienen verwandeln den Nektar, den sie von Kastanienblüten sammeln, mit völlig natürlichen Methoden in Honig. Er enthält keine Zusatzstoffe oder Konservierungsmittel. Sie können unseren natürlichen Kastanienhonig, der aus der einzigartigen Natur von Kapıdağ auf Ihre Tische kommt, sicher konsumieren und das reiche Aroma echten Kastanienhonigs entdecken.",
       modal_line: 'Kontakt', modal_whatsapp: 'Auf WhatsApp schreiben',
       ft_ship_t: 'Preisgekrönt', ft_ship_s: 'Balıkesir', ft_return_t: 'Drei Generationen', ft_return_s: 'Imkerei',
       ft_support_t: 'Kontakt', ft_support_s: 'Kontaktieren Sie uns',
@@ -361,7 +373,7 @@
 
   /* ---- product / generic contact modal ---- */
   var PRODUCT_IMG = {
-    cicek: 'assets/img/urun-cicek.jpg', kestane: 'assets/img/urun-kestane.jpg',
+    cicek: 'assets/img/urun-cicek.jpg', mese: 'assets/img/urun-mese.jpg', kestane: 'assets/img/urun-kestane.jpg',
     cam: 'assets/img/urun-cam.jpg', aycicek: 'assets/img/urun-aycicek.jpg',
     polen: 'assets/img/urun-polen.jpg', perga: 'assets/img/urun-perga.jpg'
   };
@@ -378,8 +390,16 @@
     if (!overlay) return;
     var name = opts.id ? t('p_' + opts.id) : t('modal_generic');
     var img = opts.id ? PRODUCT_IMG[opts.id] : 'assets/img/hero-honey.jpg';
+    var bodyKey = opts.id ? 'modal_body_' + opts.id : 'modal_body';
+    var bodyText = t(bodyKey) !== bodyKey ? t(bodyKey) : t('modal_body');
+    
     overlay.querySelector('.zy-modal-img').style.backgroundImage = 'url("' + img + '")';
     overlay.querySelector('.zy-modal-title').textContent = name;
+    
+    var modalTextEl = overlay.querySelector('.zy-modal-text');
+    if (modalTextEl) {
+      modalTextEl.textContent = bodyText;
+    }
     var wa = overlay.querySelector('.zy-modal-wa');
     wa.setAttribute('href', whatsappLink(opts.id ? name : ''));
     overlay.hidden = false;
