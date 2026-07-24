@@ -26,7 +26,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Montserrat:wght@500;600;700&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="assets/css/styles.css?v=20260724-2" />
 </head>
 <body>
 
@@ -76,7 +76,7 @@
   <header class="zy-header">
     <div class="zy-header-inner">
       <a class="zy-logo-link" href="index.html" aria-label="ZYFLORA">
-        <img src="assets/logo/zyflora-badge-256.png" alt="ZYFLORA — Arı ve Arı Ürünleri" />
+        <img src="assets/logo/zyflora-badge-256.png" width="256" height="256" decoding="async" alt="ZYFLORA — Arı ve Arı Ürünleri" />
       </a>
       <nav class="zy-nav" aria-label="Ana menü">
         <a href="index.html" data-i18n="nav_home">Ana Sayfa</a>
@@ -110,11 +110,40 @@
         <p class="sub" data-i18n="bl_sub">Arıcılık, doğal yaşam ve balın faydaları üzerine yazılar.</p>
       </div>
 
+      <article class="zy-blog-feature">
+        <div class="zy-blog-feature-media">
+          <picture>
+            <source
+              type="image/webp"
+              srcset="assets/img/blog-balikesir-aricilik-720.webp 720w, assets/img/blog-balikesir-aricilik-1200.webp 1200w"
+              sizes="(max-width: 1080px) 100vw, 48vw"
+            />
+            <img
+              src="assets/img/blog-balikesir-aricilik-1200.jpg"
+              width="1200"
+              height="900"
+              loading="lazy"
+              decoding="async"
+              data-i18n-alt="blog_feature_image_alt"
+              alt="Bal peteği üzerinde çalışan arılar"
+            />
+          </picture>
+        </div>
+        <div class="zy-blog-feature-body">
+          <span class="eyebrow" data-i18n="blog_feature_eyebrow">Balıkesir’den Sofralara</span>
+          <h2 data-i18n="blog_feature_title">Balıkesir'in Bereketini, ZYFLORA Güvencesiyle Sofralarınıza Taşıyoruz</h2>
+          <p data-i18n="blog_feature_p1">Balıkesir; verimli ovaları, zengin bitki örtüsü, temiz havası ve doğal yaşamıyla Türkiye'nin önemli arıcılık bölgelerinden biridir. İlkbaharda rengârenk çiçeklerle bezenen ovalar, yaz aylarında zengin orman ekosistemleriyle buluşarak arılar için eşsiz bir yaşam alanı oluşturur.</p>
+          <p data-i18n="blog_feature_p2">ZYFLORA olarak, arılarımızın Balıkesir'in doğal florasında özgürce çalışmasına özen gösteriyor; doğanın sunduğu nektar, polen ve bitkisel kaynakları özenle arı ürünlerine dönüştürüyoruz. Bahar balı, kestane balı, çam balı, polen, perga ve propolis ürünlerimizi doğaya saygılı üretim anlayışıyla, kalite ve güveni ön planda tutarak sizlerle buluşturuyoruz.</p>
+          <p data-i18n="blog_feature_p3">Bizim için her kavanoz bal, Balıkesir'in bereketli ovalarının, yemyeşil doğasının ve arılarımızın sabırla verdiği emeğin bir yansımasıdır. Ürünlerimizin doğal yapısını koruyarak, katkı maddesi kullanmadan ve hijyenik koşullarda sizlere ulaştırmayı ilke ediniyoruz.</p>
+          <p data-i18n="blog_feature_p4">ZYFLORA, Balıkesir'in doğasından aldığı ilhamla; güvenilir, doğal ve kaliteli arı ürünlerini sofralarınıza ulaştırmanın gururunu yaşamaktadır.</p>
+        </div>
+      </article>
+
       <div class="zy-blog-grid">
         <!-- post 1 -->
         <a class="zy-blog-card" href="#">
           <div class="zy-blog-media">
-            <img src="assets/img/aricilik.jpg" alt="Petek üzerinde bal arıları" />
+            <img src="assets/img/aricilik.jpg" width="1000" height="633" loading="lazy" decoding="async" alt="Petek üzerinde bal arıları" />
             <span class="zy-blog-cat" data-i18n="post1_cat">Sağlık</span>
           </div>
           <div class="zy-blog-body">
@@ -133,7 +162,7 @@
         <!-- post 2 -->
         <a class="zy-blog-card" href="#">
           <div class="zy-blog-media">
-            <img src="assets/img/dogal-uretim.jpg" alt="Kazdağları'nda doğal bal üretimi" />
+            <img src="assets/img/dogal-uretim.jpg" width="1000" height="449" loading="lazy" decoding="async" alt="Kazdağları'nda doğal bal üretimi" />
             <span class="zy-blog-cat" data-i18n="post2_cat">Üretim</span>
           </div>
           <div class="zy-blog-body">
@@ -152,7 +181,7 @@
         <!-- post 3 -->
         <a class="zy-blog-card" href="#">
           <div class="zy-blog-media">
-            <img src="assets/img/hero-honey.jpg" alt="Bal kavanozu ve ballı kahvaltı sofrası" />
+            <img src="assets/img/hero-honey.jpg" width="1000" height="544" loading="lazy" decoding="async" alt="Bal kavanozu ve ballı kahvaltı sofrası" />
             <span class="zy-blog-cat" data-i18n="post3_cat">Tarifler</span>
           </div>
           <div class="zy-blog-body">
@@ -211,7 +240,7 @@
 
     <div class="zy-footer-grid">
       <div class="zy-footer-brand">
-        <img src="assets/logo/zyflora-badge-256.png" alt="ZYFLORA" />
+        <img src="assets/logo/zyflora-badge-256.png" width="256" height="256" loading="lazy" decoding="async" alt="ZYFLORA" />
         <p data-i18n="brand_tagline">Arılarımıza ve doğaya duyduğumuz saygıyla, doğadan sofranıza saf ve katkısız arı ürünleri.</p>
         <div class="zy-social">
           <a href="https://www.instagram.com/" data-social="instagram" aria-label="Instagram"><svg class="icon"><use href="#i-instagram"/></svg></a>
@@ -223,6 +252,7 @@
       <div class="zy-footer-col">
         <h4 data-i18n="ft_col_products">Ürünler</h4>
         <a href="index.html#urunler" data-i18n="p_cicek">Çiçek Balı</a>
+        <a href="index.html#urunler" data-i18n="p_mese">Meşe Balı</a>
         <a href="index.html#urunler" data-i18n="p_kestane">Kestane Balı</a>
         <a href="index.html#urunler" data-i18n="p_cam">Çam Balı</a>
         <a href="index.html#urunler" data-i18n="ft_p4">Polen &amp; Perga</a>
@@ -258,6 +288,6 @@
     </div>
   </footer>
 
-  <script src="assets/js/site.js"></script>
+  <script src="assets/js/site.js?v=20260724-2"></script>
 </body>
 </html>
