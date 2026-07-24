@@ -857,6 +857,7 @@ button { font-family: inherit; }
 }
 .zy-modal-close {
   position: absolute;
+  z-index: 2;
   top: 14px;
   right: 14px;
   width: 34px;
@@ -869,6 +870,7 @@ button { font-family: inherit; }
   align-items: center;
   justify-content: center;
   color: var(--taupe-600);
+  touch-action: manipulation;
 }
 .zy-modal-close .icon { width: 17px; height: 17px; }
 .zy-modal-eyebrow {
