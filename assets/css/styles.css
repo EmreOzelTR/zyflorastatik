@@ -355,8 +355,16 @@ button { font-family: inherit; }
   justify-content: space-between;
   gap: 24px;
 }
-.zy-logo-link { display: inline-flex; text-decoration: none; }
-.zy-logo-link img { height: 52px; width: auto; }
+.zy-logo-link {
+  display: inline-flex;
+  flex: 0 0 auto;
+  text-decoration: none;
+}
+.zy-logo-link img {
+  display: block;
+  height: 76px;
+  width: auto;
+}
 
 .zy-nav { display: flex; align-items: center; gap: 26px; }
 .zy-nav a {
@@ -1184,6 +1192,7 @@ button { font-family: inherit; }
   .zy-pad, .zy-hero, .zy-banner { padding: 0 20px; }
   .zy-top { padding: 9px 20px; }
   .zy-header-inner { padding: 12px 20px; }
+  .zy-logo-link img { height: 64px; }
   .zy-grid-3, .zy-blog-grid { grid-template-columns: 1fr; }
   .zy-grid-4 { grid-template-columns: 1fr; }
   .zy-values-grid { grid-template-columns: 1fr; }
