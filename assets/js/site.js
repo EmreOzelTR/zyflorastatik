@@ -475,7 +475,7 @@
       height: 900,
       altKey: 'modal_image_alt_cicek'
     }],
-    mese: [{ src: 'assets/img/urun-mese.jpg', width: 1000, height: 750 }],
+    mese: [{ src: 'assets/img/urun-mese-v2.jpg', width: 1000, height: 750 }],
     kestane: [
       {
         src: 'assets/img/kestane-arilik-1200.jpg',
