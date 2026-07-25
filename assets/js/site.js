@@ -501,8 +501,8 @@
     ],
     cam: [{ src: 'assets/img/urun-cam.jpg', width: 1000, height: 750 }],
     aycicek: [{ src: 'assets/img/urun-aycicek.jpg', width: 1000, height: 750 }],
-    polen: [{ src: 'assets/img/urun-polen.jpg', width: 1000, height: 750 }],
-    perga: [{ src: 'assets/img/urun-perga.jpg', width: 1000, height: 750 }]
+    polen: [{ src: 'assets/img/urun-polen.jpg', width: 1000, height: 750, focusClass: 'zy-img--right-focus' }],
+    perga: [{ src: 'assets/img/urun-perga.jpg', width: 1000, height: 750, focusClass: 'zy-img--right-focus' }]
   };
   function renderModalMedia(host, productId, productName) {
     var media = PRODUCT_MEDIA[productId] || [{
@@ -530,6 +530,7 @@
       image.alt = item.altKey ? t(item.altKey) : productName;
       image.decoding = 'async';
       image.loading = index === 0 ? 'eager' : 'lazy';
+      if (item.focusClass) image.classList.add(item.focusClass);
       picture.appendChild(image);
       host.appendChild(picture);
     });

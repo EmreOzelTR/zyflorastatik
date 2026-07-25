@@ -580,6 +580,13 @@ button { font-family: inherit; }
   object-fit: cover;
   object-position: center;
 }
+.zy-img--right-focus {
+  transform: scale(1.18);
+  transform-origin: 60% 50%;
+}
+.zy-product--last {
+  grid-column: 2;
+}
 .zy-badge {
   position: absolute;
   top: 12px;
@@ -1237,6 +1244,7 @@ button { font-family: inherit; }
   .zy-header-inner { padding: 12px 20px; }
   .zy-logo-link img { height: 64px; }
   .zy-grid-3, .zy-blog-grid { grid-template-columns: 1fr; }
+  .zy-product--last { grid-column: auto; }
   .zy-grid-4 { grid-template-columns: 1fr; }
   .zy-values-grid { grid-template-columns: 1fr; }
   .zy-footer-grid { grid-template-columns: 1fr; }
