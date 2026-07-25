@@ -468,21 +468,13 @@
 
   /* ---- product / generic contact modal ---- */
   var PRODUCT_MEDIA = {
-    cicek: [{
-      src: 'assets/img/cicek-detay-1200.jpg',
-      webp: 'assets/img/cicek-detay-720.webp 720w, assets/img/cicek-detay-1200.webp 1200w',
-      width: 1200,
-      height: 900,
-      altKey: 'modal_image_alt_cicek'
-    }],
+    cicek: [{ src: 'assets/img/urun-cicek-v2.jpg', width: 1000, height: 750 }],
     mese: [{ src: 'assets/img/urun-mese-v2.jpg', width: 1000, height: 750 }],
     kestane: [
       {
-        src: 'assets/img/kestane-arilik-1200.jpg',
-        webp: 'assets/img/kestane-arilik-720.webp 720w, assets/img/kestane-arilik-1200.webp 1200w',
-        width: 1200,
-        height: 900,
-        altKey: 'modal_image_alt_kestane'
+        src: 'assets/img/urun-kestane-v2.jpg',
+        width: 1000,
+        height: 750
       },
       {
         src: 'assets/img/kestane-cicegi-1200.jpg',
@@ -499,8 +491,8 @@
         altKey: 'modal_image_alt_kestane'
       }
     ],
-    cam: [{ src: 'assets/img/urun-cam.jpg', width: 1000, height: 750 }],
-    aycicek: [{ src: 'assets/img/urun-aycicek.jpg', width: 1000, height: 750 }],
+    cam: [{ src: 'assets/img/urun-cam-v2.jpg', width: 1000, height: 750 }],
+    aycicek: [{ src: 'assets/img/urun-aycicek-v2.jpg', width: 1000, height: 750 }],
     polen: [{ src: 'assets/img/urun-polen.jpg', width: 1000, height: 750, focusClass: 'zy-img--right-focus' }],
     perga: [{ src: 'assets/img/urun-perga.jpg', width: 1000, height: 750, focusClass: 'zy-img--right-focus' }]
   };
