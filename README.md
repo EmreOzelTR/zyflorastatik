@@ -61,9 +61,8 @@ numaranızı ve hesaplarınızı girmeniz önerilir.
 | Menü (mobil ☰) | Açılır navigasyonu açar/kapatır |
 | Footer Instagram / Facebook / WhatsApp | İlgili hesabı/sohbeti yeni sekmede açar |
 
-> **Not — Blog yazıları:** Blog kartları örnek (placeholder) içeriktir ve gerçek bir
-> yazı sayfasına bağlı değildir (`href="#"`). Gerçek yazılarınız olduğunda her kartın
-> `href` değerini ilgili yazı adresiyle değiştirin.
+> **Not — Blog yazıları:** Blog kartları aynı sayfadaki tam yazılara bağlanır.
+> İçerikler `blog.html` içinde, çevirileri ise `assets/js/site.js` dosyasında yönetilir.
 
 ## 📤 Sosyal paylaşım & SEO
 

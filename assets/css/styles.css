@@ -566,20 +566,20 @@ button { font-family: inherit; }
   box-shadow: var(--shadow-card);
   transition: var(--transition-base);
 }
-.zy-product:hover { box-shadow: var(--shadow-lg); transform: translateY(-4px); }
+.zy-product:hover { box-shadow: var(--shadow-lg); }
 .zy-product-media {
   position: relative;
-  aspect-ratio: 1 / 0.82;
+  aspect-ratio: 4 / 3;
   overflow: hidden;
   background: var(--cream-100);
 }
 .zy-product-media img {
+  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 600ms var(--ease-out);
+  object-position: center;
 }
-.zy-product:hover .zy-product-media img { transform: scale(1.05); }
 .zy-badge {
   position: absolute;
   top: 12px;
@@ -1148,6 +1148,47 @@ button { font-family: inherit; }
   color: var(--green-700);
 }
 .zy-blog-more .icon { width: 14px; height: 14px; }
+.zy-blog-articles {
+  max-width: 860px;
+  margin: 56px auto 0;
+  display: grid;
+  gap: 28px;
+}
+.zy-blog-article {
+  scroll-margin-top: 108px;
+  padding: 38px 42px;
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-xl);
+  background: #fff;
+  box-shadow: var(--shadow-card);
+}
+.zy-blog-article-head {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  margin-bottom: 14px;
+}
+.zy-blog-article h2 {
+  margin: 0 0 18px;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(30px, 4vw, 42px);
+  line-height: 1.08;
+  color: var(--text-primary);
+}
+.zy-blog-article p {
+  margin: 0 0 15px;
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.78;
+  color: var(--text-secondary);
+}
+.zy-blog-article p:last-child { margin-bottom: 0; }
+.zy-blog-article .zy-blog-cat {
+  position: static;
+  display: inline-flex;
+}
 
 /* =========================================================================
    Responsive
@@ -1220,6 +1261,7 @@ button { font-family: inherit; }
   .zy-modal-img--gallery picture:first-child { grid-column: auto; }
   .zy-modal-body { padding: 26px 22px; }
   .zy-blog-feature-body { padding: 32px 24px; }
+  .zy-blog-article { padding: 30px 24px; }
   .zy-footer-trust-inner { flex-direction: column; }
 }
 
